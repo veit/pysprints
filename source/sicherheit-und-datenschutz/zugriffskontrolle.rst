@@ -1,0 +1,52 @@
+=================
+Zugriffskontrolle
+=================
+
+Es ist zu gewährleisten, dass die zur Benutzung eines Datenverarbeitungssystems Berechtigten ausschließlich auf die ihrer Zugriffsberechtigung unterliegenden Daten zugreifen können und personenbezogene Daten bei der Verarbeitung, Nutzung und nach der Speicherung nicht unbefugt gelesen, kopiert, verändert oder entfernt werden können.
+
+Das Berechtigungskonzept sollte unterscheiden zwischen den Aufgaben zur Instandhaltung der Anwendungen und pivilegierten Aufgaben zur Aktualisierung und Konfiguration des Betriebssystems. 
+
+Sollte ein Anwendungsentwickler zur Lösung eines Problems privilegierten Zugang benötigen, kann dies z.B. in einer Multiuser-Session mit GNU Screen zusammen mit einem Administrator durchgeführt werden. 
+
+Anwendungsentwickler können ggf. mit Ihrem individuellen Zugang zu Service-Nutzer-Zugängen und Datenbank-Administrationszugängen wechseln. Alle Berechtigungen werden explizit und nachvollziehbaar gesetzt. Ein Zugang für eine Gruppe von Personen wird nicht gewährt um eine Nachverfolgbarkeit der Transaktionen gewährleisten zu können.
+
+Weitere Einschränkungen werden von ZEO nicht vorgenommen.
+ 
+ZEO
+===
+
+ZEO-Authentication
+
+
+Siehe plone.recipe.zeoserver: Authentication
+s.a. pack-user, pack-password
+
+plone.recipe.zope2instance
+
+ZEO-Authentication
+zeo-username
+zeo-password
+
+
+- Entweder auf einem Host
+
+  verhindert auch das Schreiben auf die falsche ZODB
+
+- Kommunikation zwischen ZEO-COlients und -Servern in separatem Netz
+- Logs können personenbezogene Daten enthalten, so enthält z.B. das Trace Log sämtliche Funktionsaufrufe mit Parametern
+
+  Maßnahmen:
+
+  - Weder per Mail sollten entsprechende Log-Einträge verschickt werden oder unverschlüsselt auf Monitoring-Server übertragen werden.
+  - Die Ausgabe des Monitoring-Server sollte an bestimmtes Netz gebunden werden.
+
+Zope
+====
+
+- Security-Policies sollten nur in Ausnahmefällen in der zope.conf geändert werden.
+- Oftmals kann die Rechteänderung über Workflow-Stadien geändert werden. 
+- Proxy-Rollen sollten nur in Ausnahmefällen eingesetzt werden
+- Normale Nutzer sollten getrennt sein von admin-Accounts
+- Niemand sollte im täglichen Betrieb mit Management-Rechten arbeiten. Ggf. sollten für eine Person zwei Accounts eingerichtet werden.
+- Admin hat die Aufgabe, die Nutzer und Gruppen den entsprechenden Rollen zuzuweisen. Dabei sollten die Nutzer nur die Rechte erhalten, die auch tatsächlich benötigt werden.
+
