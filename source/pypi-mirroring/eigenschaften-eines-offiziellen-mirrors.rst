@@ -26,10 +26,11 @@ Wird PyPI regelmäßig verwendet, konnte dieser zum *single point of failure* we
 Liste der Mirrors und deren Registrierung
 -----------------------------------------
 
-Falls Sie einen offiziellen PypPI-Mirror betreiben wollen, beantragen Sie dies bitte auf der `catalog-SIG`_-Mailingliste. Sofern Ihr Mirror standardkonform ist, wird er manuell in die Liste der `PyPI-Mirrors`_ eingefügt.
+Falls Sie einen offiziellen PypPI-Mirror betreiben wollen, beantragen Sie dies bitte auf der `catalog-SIG`_-Mailingliste. Sofern Ihr Mirror standardkonform ist, wird er manuell in die Liste der `PyPI-Mirrors`_ eingefügt. Einen Überblick über alle offiziellen Mirrors, deren Standort, letzte Aktualisierung und Antwortzeiten erhalten Sie in `PyPI Mirror Status`_.
 
 .. _`catalog-SIG`: http://mail.python.org/mailman/listinfo/catalog-sig
 .. _`PyPI-Mirrors`: http://pypi.python.org/mirrors
+.. _`PyPI Mirror Status`: http://www.pypi-mirrors.org/
 
 - Dabei folgen die Host-Namen der Form::
 
