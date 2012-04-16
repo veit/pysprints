@@ -14,6 +14,7 @@ Inhalt:
    sponsors/index
    pypi-mirroring/index
    sicherheit-und-datenschutz/index
+   zmi-replacement/index
 
 Index und Suche
 ===============
