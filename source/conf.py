@@ -41,7 +41,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'DZUG-Sprints'
-copyright = u'2010–2011, Christian Theune, Veit Schiele'
+copyright = u'2010–2012, Christian Theune, Veit Schiele'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the

@@ -15,6 +15,7 @@ Inhalt:
    pypi-mirroring/index
    sicherheit-und-datenschutz/index
    zmi-replacement/index
+   python-deployment/index
 
 Index und Suche
 ===============
