@@ -15,6 +15,8 @@ Werkzeuge
 
     Über Templates werden deklarativ die gewünschten Zustände eines Subsystems festgelegt. 
 
+    Schwerpunkt liegt auf der Server-Konfiguration, nicht unbedingt geeignet für Service-Deployment, u.a.  keine Orchestrierung vorgesehen.
+
    batou
     `batou <http://pypi.python.org/pypi/batou/>`_ ist ein in Python geschriebenes Werkzeug zur automatisierten Konfiguration von Multi-Host- und Multi-Environment-Software. 
 
