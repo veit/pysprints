@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# DZUG-sprints documentation build configuration file, created by
+# Python-Web-Sprints documentation build configuration file, created by
 # sphinx-quickstart on Sun Oct 24 11:20:00 2010.
 #
 # This file is execfile()d with the current directory set to its containing dir.
@@ -40,7 +40,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'DZUG-Sprints'
+project = u'Python-Web-Sprints'
 copyright = u'2010–2012, Christian Theune, Veit Schiele'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -125,7 +125,7 @@ html_static_path = ['_static']
 
 # If not '', a 'Last updated on:' timestamp is inserted at every page bottom,
 # using the given strftime format.
-#html_last_updated_fmt = '%b %d, %Y'
+html_last_updated_fmt = '%d. %B %Y, %H:%M Uhr'
 
 # If true, SmartyPants will be used to convert quotes and dashes to
 # typographically correct entities.
@@ -165,7 +165,7 @@ html_static_path = ['_static']
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'dzug-sprintsdoc'
+htmlhelp_basename = 'sprintsdoc'
 
 
 # -- Options for LaTeX output --------------------------------------------------
@@ -179,7 +179,7 @@ htmlhelp_basename = 'dzug-sprintsdoc'
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'dzug-sprints.tex', u'DZUG-Sprints-Dokumentation',
+  ('index', 'python-web-sprints.tex', u'Python-Web-Sprints-Dokumentation',
    u'Christion Theune, Veit Schiele', 'manual'),
 ]
 
@@ -212,6 +212,6 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'dzug-sprints', u'DZUG-Sprints-Dokumentation',
+    ('index', 'python-web-sprints', u'Python-Web-Sprints-Dokumentation',
      [u'Christian Theune, Veit Schiele'], 1)
 ]
