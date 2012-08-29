@@ -18,36 +18,28 @@ Konzepte
     - Überprüfen
     - Aktualisieren
 
-2. Grundideen
-
+Grundideen
+----------
 
 Betrieb und Deployment sind anspruchsvolle Aufgaben, die über Erfolg und
-Misserfolg eines Projekts mit entscheiden - informier dich, erstelle ein
-Konzept und lass dich beraten.
+Misserfolg eines Projekts mit entscheiden – informiert Euch, erstellt ein
+Konzept und lasst Euch beraten.
 
-Python-Webanwendungen haben ein paar Besonderheiten, die man beachten sollte,
-aber: keine substantielle Python-Webanwendung wird in einer reinen
-Python-Umgebung vollständig sein und andere Komponenten (Webserver,
-Datenbanken, ...) benötigen.
+Python-Webanwendungen haben ein paar Besonderheiten, die man beachten sollte.
+Aber: Keine substantielle Python-Webanwendung wird in einer reinen
+Python-Umgebung vollständig sein und andere Komponenten wie Webserver,
+Datenbanken etc. … benötigen.
 
 Hier sind einige Prinzipien, die dein Leben leichter machen
 werden:
 
 * Separation of concerns
-* 
-
-
-Merke: das sind *Prinzipien*, keine Gesetze. Die Anwendung erfordert
-Nachdenken.
-
-
-
 * Sparsamkeit
 * Infrastruktur/Plattform als Voraussetzung
-* Verständlich
+* Verständlichkeit
 * Wiederholbarkeit
 * Vorhersagbarkeit
-* debugbarkeit/testbarkeit/beobachtbarkeit/nachvollziehbarkeit
+* Debugbarkeit/Testbarkeit/Beobachtbarkeit/Nachvollziehbarkeit
 * Robustheit
 * Portabilität
 * Isolation
@@ -56,7 +48,7 @@ Nachdenken.
 
 h2. Konzeption
 
-  zeitplan fuer live-gang
+  Zeitplan fuer Live-gang
 
   service-user, keine root-installation
 
