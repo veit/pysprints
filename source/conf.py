@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# Python-Web-Sprints documentation build configuration file, created by
+# PySprints documentation build configuration file, created by
 # sphinx-quickstart on Sun Oct 24 11:20:00 2010.
 #
 # This file is execfile()d with the current directory set to its containing dir.
@@ -40,8 +40,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Python-Web-Sprints'
-copyright = u'2010–2012, Christian Theune, Veit Schiele'
+project = u'PySprints'
+copyright = u'2010–2013, Christian Theune, Veit Schiele'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -179,7 +179,7 @@ htmlhelp_basename = 'sprintsdoc'
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'python-web-sprints.tex', u'Python-Web-Sprints-Dokumentation',
+  ('index', 'pysprints.tex', u'PytSprints-Dokumentation',
    u'Christion Theune, Veit Schiele', 'manual'),
 ]
 
@@ -212,6 +212,6 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'python-web-sprints', u'Python-Web-Sprints-Dokumentation',
+    ('index', 'pysprints', u'PySprints-Dokumentation',
      [u'Christian Theune, Veit Schiele'], 1)
 ]
