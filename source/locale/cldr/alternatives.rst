@@ -16,7 +16,7 @@ Alternativen
 
    - stellt nicht die vollständigen CLDR-Daten bereit. So wird z.B. bis ICU 51
      ``orientation`` (``right-to-left``) nicht bereitgestellt. 
-   - ändern der Daten ist schwierig da die ein Rebuild von ICU und ggf. auch
+   - Ändern der Daten ist schwierig da die ein Rebuild von ICU und ggf. auch
      Python erforderlich würde.
    - Ein Wrapper für alle Klassen würde einigen Aufwand bedeuten, zumindest
      wenn das API PEP-8-kompatibel sein soll.
@@ -41,7 +41,7 @@ Eigene ICU-Implementierung
 
    - geringere Download- und Speichergröße
    - hohe Performance
-   - effizienter RAM-Verbrauch
+   - geringer RAM-Verbrauch
 
  - Kontra:
 

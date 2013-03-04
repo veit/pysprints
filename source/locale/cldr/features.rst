@@ -14,14 +14,14 @@ Features
   Level-API wird sich dennoch verwenden lassen ohne dass die Notwendigkeit
   besteht, die LDML-Daten erneut zu parsen.
    
-- Das Python-cldr-Modul wird das ieigenständige Aktualisieren und Ändern des
-  CLDR-Repository  erlauben. Damit sollen u.a. die folgenden Szenarios
+- Das Python-cldr-Modul wird das eigenständige Aktualisieren und Ändern des
+  CLDR-Repository  erlauben. Damit sollen u.a. die folgenden Szenarien
   unterstützt werden:
 
   - Schnelles Beheben von Fehlern im Repository.
 
     So ist z.B. in ``/locales/core/common/main/de.xml`` kein Unterschied
-    zwischen Name und Abkürzung einr Ära in der deutschen Lokalisierung
+    zwischen Name und Abkürzung einer Ära in der deutschen Lokalisierung
     angegeben::
 
      <eraNames>
