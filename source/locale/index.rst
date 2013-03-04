@@ -1,3 +1,9 @@
+.. sectionauthor:: 
+    Christian Tissmer,
+    Felix Schwarz,
+    Martin v. Löwis, 
+    Veit Schiele
+
 Python-``locale``-Modul
 =======================
 
