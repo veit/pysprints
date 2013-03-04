@@ -30,3 +30,12 @@ basierenden Bibliotheken gestellt:
   initial lookup:   0.11439490
   further lookups:  0.00005031
 
+Resümee
+-------
+
+Die cldr-Low-Level-API war selbst beim initialen Lookup, bei dem die ldml-Daten
+geparst werden, überraschend schnell. Dieser Wert wird sich zwar noch etwas
+verschlechtern, sobald Inheritance implementiert und dann ggf. drei LDML-
+Dateien geparst werden müssen, dürfte jedoch weiterhin hinreichend schnell
+sein.
+
