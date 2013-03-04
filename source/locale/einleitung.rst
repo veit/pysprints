@@ -11,11 +11,11 @@ eine locale zu setzen, die dann von C-Programmen wie `Tk <http://www.tcl.tk/>`_
 verwendet werden kann.
 
 Das Python-locale-Modul ist jedoch nicht für häufige Änderungen der locale
-geeignet da mit jeder Änderung eine Core Dump einhergeht. Auch würde der Aufruf
-von ``setlocale()`` in einer Subroutine immer zu einer einer Änderung des
-gesamten Programms mit allen Threads führen. Weitere Informationen zur
-Verwendung des Python-locale-Modul erhalten Sie in `22.2.1. Background,
-details, hints, tips and caveats
+geeignet da diese Änderungen sehr teuer sind und häufige Änderungen zu Core
+Dumps führen können. Auch würde der Aufruf von ``setlocale()`` in einer
+Subroutine immer zu einer einer Änderung des gesamten Programms mit allen
+Threads führen. Weitere Informationen zur Verwendung des Python-locale-Modul
+erhalten Sie in `22.2.1. Background, details, hints, tips and caveats
 <http://docs.python.org/2/library/locale.html#background-details-hints-tips-and-caveats>`_.
 
 Lokalisierung von Mehrbenutzeranwendungen
