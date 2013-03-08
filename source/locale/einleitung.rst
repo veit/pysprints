@@ -24,7 +24,7 @@ Lokalisierung von Mehrbenutzeranwendungen
 Um für Mehrbenutzeranwendungen, deren User Interface für verschiedene Nutzer
 unterschiedlich lokalisiert werden soll, grundlegende Daten und Funktionen
 bereitzustellen, haben wir uns als Datengrundlage für `CLDR
-<http://cldr.unicode.org/>`, das *Common Locale Data Repository* entschieden.
+<http://cldr.unicode.org/>`_, das *Common Locale Data Repository* entschieden.
  
 CLDR ist ein Projekt des Unicode Consortium, das Locale-Daten im XML-Format,
 genauer in LDML (Locale Data Markup Language) liefert. Diese Daten werden aktuell
