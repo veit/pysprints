@@ -4,8 +4,8 @@
     Martin v. Löwis, 
     Veit Schiele
 
-Python-``locale``-Modul
-=======================
+Python-Locale-Modul
+===================
 
 Inhalt:
 
