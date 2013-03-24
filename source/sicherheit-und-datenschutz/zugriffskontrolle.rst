@@ -32,7 +32,7 @@ zeo-password
 
   verhindert auch das Schreiben auf die falsche ZODB
 
-- Kommunikation zwischen ZEO-COlients und -Servern in separatem Netz
+- Kommunikation zwischen ZEO-Clients und -Servern in separatem Netz
 - Logs können personenbezogene Daten enthalten, so enthält z.B. das Trace Log sämtliche Funktionsaufrufe mit Parametern
 
   Maßnahmen:
