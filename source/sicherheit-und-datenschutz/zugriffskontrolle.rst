@@ -15,24 +15,29 @@ Weitere Einschränkungen werden von ZEO nicht vorgenommen.
 ZEO
 ===
 
-ZEO-Authentication
+ZEO-Authentifizierung
+---------------------
 
+Siehe `plone.recipe.zeoserver: Authentication
+<https://pypi.python.org/pypi/plone.recipe.zeoserver#authentication>`_ und `plone.recipe.zope2instance
+ZEO authentication <https://pypi.python.org/pypi/plone.recipe.zope2instance#zeo-authentication>`_:
 
-Siehe plone.recipe.zeoserver: Authentication
-s.a. pack-user, pack-password
+``pack-user``
+ Falls der ZEO-Server Authentifizierung verwendet, kann hier der Nutzer eingetragen werden, mit dem
+ das ``zeopack``-Skript aufgerufen werden soll.
+``pack-password``
+ Das Passwort für den ``pack-user``.
+``zeo-username``
+ ermöglicht ZEO-Authentifizierung
+``zeo-password``
+ Erforderliches Passwort für ``zeo-username``
 
-plone.recipe.zope2instance
+- Auf einem Host kann damit das Schreiben in die *falsche* ZODB verhindert werden.
+- Die Kommunikation zwischen ZEO-Clients und -Servern sollte in einem separatem Netz erfolgen.
 
-ZEO-Authentication
-zeo-username
-zeo-password
+Logs
+----
 
-
-- Entweder auf einem Host
-
-  verhindert auch das Schreiben auf die falsche ZODB
-
-- Kommunikation zwischen ZEO-Clients und -Servern in separatem Netz
 - Logs können personenbezogene Daten enthalten, so enthält z.B. das Trace Log sämtliche Funktionsaufrufe mit Parametern
 
   Maßnahmen:
