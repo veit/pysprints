@@ -3,13 +3,22 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+==============
 Python-Sprints
 ==============
 
-Inhalt:
+Seit April 2011 finden regelmäßig dreitägige Sprints zu verschiedenen Themen 
+rund um Python-Web Anwendungen statt. Dabei geht es meist nicht um die schnelle
+Implementierung spezifischer Features sondern um grundlegende, von den
+Beteiligten mitgetragene Konzepte. Meist wird auch nicht an einzelnen
+Komponenten, sondern an einer Toolchain zur Lösung konkreter Probleme 
+gearbeitet. Schließlich werden die Ergebnisse in einer Anwenderdokumentation
+festgehalten.
+
+Die Themen der bisherigen Sprints waren:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    pypi-mirroring/index
    sicherheit-und-datenschutz/index
