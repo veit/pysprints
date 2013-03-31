@@ -1,6 +1,12 @@
 Features
 ========
 
+:Authors: - Christian Tissmer
+          - Felix Schwarz
+          - Martin v. Löwis
+          - Veit Schiele
+:Date: 2013-03-01
+
 - ``cldr`` soll ein High-Level-API für die gebräuchlichsten Anfragen
   bereitstellen. Da es uns jedoch kaum möglich erscheint, **alle** möglichen
   Fälle abzudecken, wollen wir darüber hinaus ein `Low-Level-API

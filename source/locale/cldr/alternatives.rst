@@ -1,6 +1,12 @@
 Alternativen
 ============
 
+:Authors: - Christian Tissmer
+          - Felix Schwarz
+          - Martin v. Löwis
+          - Veit Schiele
+:Date: 2013-03-01
+
 `ICU <http://www.icu-project.org>`_
  ICU ist die C++-Referenzimplementierung, die High-Level-Access zu den CLDR-
  Daten ermöglicht. Dabei werden die CLDR-Daten in einer Shared Library

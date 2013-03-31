@@ -2,6 +2,12 @@
 Einleitung
 ==========
 
+:Authors: - Christian Tissmer
+          - Felix Schwarz
+          - Martin v. Löwis
+          - Veit Schiele
+:Date: 2013-03-01
+
 Das `locale <http://docs.python.org/2/library/locale.html>`_-Modul ist ein
 häufig missverstandenes Modul in Python. Es ermöglicht den Zugriff auf die
 C-locale-Implementierungund und deren Funktionen. 

@@ -1,8 +1,13 @@
 .. highlight:: console
-.. sectionauthor:: Veit Schiele <kontakt@veit-schiele.de>
 
 Performance
 ===========
+
+:Authors: - Christian Tissmer
+          - Felix Schwarz
+          - Martin v. Löwis
+          - Veit Schiele
+:Date: 2013-03-01
 
 Um einen ersten Eindruck über die zu erwartende Performance zu erhalten, haben
 wir einige initiale Performance-Messungen durchgeführt. Dabei wurde die Frage
