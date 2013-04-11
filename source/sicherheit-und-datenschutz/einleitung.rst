@@ -2,6 +2,12 @@
 Einleitung
 ==========
 
+:Authors: - Christian Theune
+          - Hanno Schlichting
+          - Jens Vagelpohl
+          - Veit Schiele
+:Date: 2011-08-15
+
 Wir verwenden als Referenz das deutsche `Bundesdatenschutzgesetz`_ (BDSG). Dabei wird In `§ 1`_ Absatz 1 BDSG der Zweck des Gesetzes beschrieben als Schutz des Einzelnen vor der Beeinträchtigung seiner Persönlichkeitsrechte beim Umgang mit seinen personenbezogenen Daten. 
 
 .. _`Bundesdatenschutzgesetz`: http://de.wikipedia.org/wiki/Bundesdatenschutzgesetz

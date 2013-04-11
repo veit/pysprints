@@ -2,6 +2,12 @@
 Zugriffskontrolle
 =================
 
+:Authors: - Christian Theune
+          - Hanno Schlichting
+          - Jens Vagelpohl
+          - Veit Schiele
+:Date: 2011-08-15
+
 Es ist zu gewährleisten, dass die zur Benutzung eines Datenverarbeitungssystems Berechtigten ausschließlich auf die ihrer Zugriffsberechtigung unterliegenden Daten zugreifen können und personenbezogene Daten bei der Verarbeitung, Nutzung und nach der Speicherung nicht unbefugt gelesen, kopiert, verändert oder entfernt werden können.
 
 Das Berechtigungskonzept sollte unterscheiden zwischen den Aufgaben zur Instandhaltung der Anwendungen und pivilegierten Aufgaben zur Aktualisierung und Konfiguration des Betriebssystems. 

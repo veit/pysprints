@@ -1,5 +1,5 @@
-Python-Locale-Modul
-===================
+Python-Locale-Modul (27.02.–01.03.2013)
+=======================================
 
 :Authors: - Christian Tissmer
           - Felix Schwarz

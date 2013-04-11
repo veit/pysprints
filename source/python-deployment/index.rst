@@ -1,5 +1,12 @@
-Deployment von Python-Webanwendungen
-====================================
+Deployment von Python-Webanwendungen (23.–25. Mai 2013)
+=======================================================
+
+:Authors: - Christian Theune
+          - Jens Vagelpohl
+          - Michael Hierweck
+          - Stephan Diehl
+          - Veit Schiele
+:Date: 2012-05-23
 
 Inhalt:
 
@@ -9,7 +16,6 @@ Inhalt:
    einleitung
    ziele
    konzepte
-   methoden
    werkzeuge
    siehe-auch
 

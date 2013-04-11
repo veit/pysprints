@@ -2,6 +2,13 @@
 Einleitung
 ==========
 
+:Authors: - Christian Theune
+          - Jens Vagelpohl
+          - Michael Hierweck
+          - Stephan Diehl
+          - Veit Schiele
+:Date: 2012-05-23
+
 Betrieb und Deployment sind anspruchsvolle Aufgaben, die über Erfolg und
 Misserfolg eines Projekts mit entscheiden – informier dich, erstelle ein
 Konzept und lass dich beraten.

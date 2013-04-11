@@ -2,6 +2,13 @@
 PyPI-Entwicklungsumgebung
 =========================
 
+:Authors: - Christian Theune
+          - Jan Ulrich Hasecke
+          - Martin v. Löwis
+          - Thomas Lotze
+          - Veit Schiele
+:Date: 2011-04-06
+
 Um den PyPI weiterzuentwickeln, können Sie die folgende Anleitung verwenden.
 
 Anforderungen

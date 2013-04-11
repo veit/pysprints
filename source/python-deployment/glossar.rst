@@ -2,6 +2,13 @@
 Glossar
 =======
 
+:Authors: - Christian Theune
+          - Jens Vagelpohl
+          - Michael Hierweck
+          - Stephan Diehl
+          - Veit Schiele
+:Date: 2012-05-23
+
 .. glossary::
 
    IaaS (Infrastructure as a Service)

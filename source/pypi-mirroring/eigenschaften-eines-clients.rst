@@ -2,6 +2,13 @@
 Eigenschaften eines Clients
 ===========================
 
+:Authors: - Christian Theune
+          - Jan Ulrich Hasecke
+          - Martin v. Löwis
+          - Thomas Lotze
+          - Veit Schiele
+:Date: 2011-04-06
+
 Motivation
 ----------
 

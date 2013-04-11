@@ -2,6 +2,12 @@
 Verfügbarkeitskontrolle
 =======================
 
+:Authors: - Christian Theune
+          - Hanno Schlichting
+          - Jens Vagelpohl
+          - Veit Schiele
+:Date: 2011-08-15
+
 Es ist zu gewährleisten, dass personenbezogene Daten gegen zufällige Zerstörung oder Verlust geschützt sind.
 
 Die Verfügbarkeit der Ressourcen ist im Allgemeinen durch den Betreiber des Rechenzentrums zu gewährleisten. 

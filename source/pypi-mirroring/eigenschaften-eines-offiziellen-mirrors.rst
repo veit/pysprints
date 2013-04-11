@@ -2,6 +2,13 @@
 Eigenschaften eines offiziellen Mirrors
 =======================================
 
+:Authors: - Christian Theune
+          - Jan Ulrich Hasecke
+          - Martin v. Löwis
+          - Thomas Lotze
+          - Veit Schiele
+:Date: 2011-04-06
+
 `PEP 381`_ beschreibt die Mirroring-Infrastruktur für den Python Package Index `PyPI`_.
 
 .. _`PEP 381`: http://www.python.org/dev/peps/pep-0381/

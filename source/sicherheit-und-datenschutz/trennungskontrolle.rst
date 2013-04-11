@@ -2,6 +2,12 @@
 Trennungskontrolle
 ==================
 
+:Authors: - Christian Theune
+          - Hanno Schlichting
+          - Jens Vagelpohl
+          - Veit Schiele
+:Date: 2011-08-15
+
 Es ist zu gewährleisten, dass zu unterschiedlichen Zwecken erhobene Daten getrennt verarbeitet werden können.
 
 Virtuelle Maschinen separieren die Verarbeitung der Daten und Speichernetzwerke separieren die persistent gespeicherten Daten.

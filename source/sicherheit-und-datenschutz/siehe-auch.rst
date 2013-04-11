@@ -2,6 +2,12 @@
 Siehe auch
 ==========
 
+:Authors: - Christian Theune
+          - Hanno Schlichting
+          - Jens Vagelpohl
+          - Veit Schiele
+:Date: 2011-08-15
+
 - `BSI IT-Grundschutzkatalog <https://www.bsi.bund.de/DE/Themen/weitereThemen/ITGrundschutzKataloge/Inhalt/Massnahmenkataloge/massnahmenkataloge_node.html>`_
 - `WebAppSec/Secure Coding Guidelines <https://wiki.mozilla.org/WebAppSec/Secure_Coding_Guidelines>`_ 
 - `WebLion: Secure Zope <https://weblion.psu.edu/trac/weblion/wiki/SecureZope>`_

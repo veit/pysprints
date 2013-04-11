@@ -2,6 +2,12 @@
 Eingabekontrolle
 ================
 
+:Authors: - Christian Theune
+          - Hanno Schlichting
+          - Jens Vagelpohl
+          - Veit Schiele
+:Date: 2011-08-15
+
 Es ist zu gewährleisten, dass nachträglich überprüft und festgestellt werden kann, ob und von wem personenbezogene Daten in Datenverarbeitungssysteme eingegeben, verändert oder entfernt worden sind.
 
 Dies ist üblicherweise von der Anwendung selbst zu gewährleisten. Lediglich in seltenen Ausnahmefällen kann auch für Administratoren zur Aufrechterhaltung des Betriebs und der Performance erforderlich sein, Daten einzugeben, zu verändern oder zu entfernen.

@@ -2,6 +2,12 @@
 Zugangskontrolle
 ================
 
+:Authors: - Christian Theune
+          - Hanno Schlichting
+          - Jens Vagelpohl
+          - Veit Schiele
+:Date: 2011-08-15
+
 Unbefugten ist die Nutzung von Datenverarbeitungssystemen, mit denen personenbezogene Daten verarbeitet oder genutzt werden, zu verwehren.
 
 Der Zugang zu den Maschinen kann auf verschiedene Weise erfolgen: per SSH, Web-Interface etc. Dabei haben alle Management-Zugänge verschlüsselt zu erfolgen.

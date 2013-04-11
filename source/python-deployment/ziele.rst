@@ -2,6 +2,13 @@
 Ziele
 =====
 
+:Authors: - Christian Theune
+          - Jens Vagelpohl
+          - Michael Hierweck
+          - Stephan Diehl
+          - Veit Schiele
+:Date: 2012-05-23
+
 Aufwände verringern
 -------------------
 

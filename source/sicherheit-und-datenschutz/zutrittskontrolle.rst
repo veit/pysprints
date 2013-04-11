@@ -2,6 +2,12 @@
 Zutrittskontrolle
 =================
 
+:Authors: - Christian Theune
+          - Hanno Schlichting
+          - Jens Vagelpohl
+          - Veit Schiele
+:Date: 2011-08-15
+
 Unbefugten ist der Zutritt zu Datenverarbeitungsanlagen, mit denen personenbezogene Daten verarbeitet oder genutzt werden, zu verwehren.
 
 - Video-Überwachung außerhalb des Gebäudes, der Türen und der Korridore

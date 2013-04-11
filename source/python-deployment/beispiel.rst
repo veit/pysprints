@@ -1,6 +1,13 @@
 Beispiel
 ========
 
+:Authors: - Christian Theune
+          - Jens Vagelpohl
+          - Michael Hierweck
+          - Stephan Diehl
+          - Veit Schiele
+:Date: 2012-05-23
+
 Siehe auch `Service Deployment Cheicklist <http://gocept.net/doc/reference/processes/service-deployment-checklist.html>`_
 
 Komponenten
