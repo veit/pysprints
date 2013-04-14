@@ -1,4 +1,4 @@
-Deployment von Python-Webanwendungen (23.–25. Mai 2013)
+Deployment von Python-Webanwendungen (23.–25. Mai 2012)
 =======================================================
 
 :Authors: - Christian Theune
