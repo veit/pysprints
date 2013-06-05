@@ -17,4 +17,5 @@ Inhalt:
    langzeitarchivierung-und-auswertung
    bewertungen
    graphing-und-dashboard
+   installation
  
