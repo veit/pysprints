@@ -1,4 +1,4 @@
-Installation
+
 ============
 
 Scales
@@ -6,6 +6,8 @@ Scales
 
 Installation
 ~~~~~~~~~~~~
+
+::
 
  $ python2.7 virtualenv scales_env
  $ cd scales_env
@@ -49,8 +51,8 @@ Installation
 
 ::
 
- wget http://aphyr.com/riemann/riemann-0.2.1.tar.bz2
- tar xvjf riemann-0.2.1.tar.bz2
+ $ wget http://aphyr.com/riemann/riemann-0.2.1.tar.bz2
+ $ tar xvjf riemann-0.2.1.tar.bz2
 
 Konfiguration
 ~~~~~~~~~~~~~
@@ -66,14 +68,48 @@ Konfiguration
  …
  (graphite-server :host host))
 
-Installation des Riemann-Desktop-Package
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Riemann-Desktop-Package
+~~~~~~~~~~~~~~~~~~~~~~~
+
+#. ::
+
+    $ apt-get install ruby1.9.1-dev
+    $ mkdir -p riemann-desktop/gems
+    $ cd riemann-desktop
+    $ gem install --install-dir ./gems/ riemann-client riemann-tools riemann-dash
+
+#. Nun können Sie im Browser folgende Adresse aufrufen:
+   ``http://localhost:4567``.
+#. Mit ``e`` erhalten Sie eine Editieransicht, in der Sie z.B. ``Grid`` und als
+   Query ``true`` eingeben können. Damit werden Ihnen die Events aus
+   ``scales.py`` angezeigt.
+
+collectd
+--------
+
+Installation
+~~~~~~~~~~~~
 
 ::
 
- $ apt-get install ruby1.9.1-dev
- $ mkdir -p riemann-desktop/gems
- $ cd riemann-desktop
- $ gem install --install-dir ./gems/ riemann-client riemann-tools riemann-dash
+ $ apt-get install collectd
+
+Konfiguration
+~~~~~~~~~~~~~
+
+ $ vim /etc/collectd.conf
+
+Die folgenden Absätze sollten auskommentiert werden::
+
+ LoadPlugin write_graphite
+ …
+ <Plugin write_graphite>
+  <Carbon>
+   Host "localhost"
+   …
+
+Schließlich kann der Dienst neu gestartet werden mit::
+
+ $ /etc/init.d/collectd restart
 
 
