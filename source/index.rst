@@ -24,6 +24,7 @@ Die Themen der bisherigen Sprints waren:
    sicherheit-und-datenschutz/index
    python-deployment/index
    locale/index
+   monitoringlove/index
    ausblick
 .. zmi-replacement/index
 
