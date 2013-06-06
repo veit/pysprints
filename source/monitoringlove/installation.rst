@@ -43,47 +43,6 @@ Dabei ist ``scales.py`` ein Beispielskript::
      STATS.success = random.randint(1,10)
      print STATS.success
 
-Riemann
--------
-
-Installation
-~~~~~~~~~~~~
-
-::
-
- $ wget http://aphyr.com/riemann/riemann-0.2.1.tar.bz2
- $ tar xvjf riemann-0.2.1.tar.bz2
-
-Konfiguration
-~~~~~~~~~~~~~
-
-::
-
- $ cd riemann/etc
- $ vim riemann.config
-
-Öffenen des Port 2003 für das graphite-Orotokoll::
-
- (let [host "127.0.0.1"]
- …
- (graphite-server :host host))
-
-Riemann-Desktop-Package
-~~~~~~~~~~~~~~~~~~~~~~~
-
-#. ::
-
-    $ apt-get install ruby1.9.1-dev
-    $ mkdir -p riemann-desktop/gems
-    $ cd riemann-desktop
-    $ gem install --install-dir ./gems/ riemann-client riemann-tools riemann-dash
-
-#. Nun können Sie im Browser folgende Adresse aufrufen:
-   ``http://localhost:4567``.
-#. Mit ``e`` erhalten Sie eine Editieransicht, in der Sie z.B. ``Grid`` und als
-   Query ``true`` eingeben können. Damit werden Ihnen die Events aus
-   ``scales.py`` angezeigt.
-
 collectd
 --------
 
