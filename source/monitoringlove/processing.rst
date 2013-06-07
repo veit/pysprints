@@ -1,5 +1,5 @@
-Transport/Inbound processing
-============================
+Processing
+==========
 
 `Riemann <http://riemann.io/>`_ aggregiert Events von Servern und Anwendungen.
 
