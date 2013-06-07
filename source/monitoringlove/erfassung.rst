@@ -4,8 +4,44 @@ Erfassung
 Statistiken
 -----------
 
-- `collectd – The system statistics collection daemon <http://collectd.org/>`_
-- `statsD – a network daemon listens for statistics <https://github.com/etsy/statsd/>`_
+System
+``````
+
+`collectd  <http://collectd.org/>`_ 
+ The system statistics collection daemon
+
+Installation
+::::::::::::
+
+::
+
+ $ apt-get install collectd
+
+Konfiguration
+:::::::::::::
+
+::
+
+ $ vim /etc/collectd.conf
+
+Die folgenden Absätze sollten auskommentiert werden::
+
+ LoadPlugin write_graphite
+ …
+ <Plugin write_graphite>
+  <Carbon>
+   Host "localhost"
+   …
+
+Schließlich kann der Dienst neu gestartet werden mit::
+
+ $ /etc/init.d/collectd restart
+
+Netzwerk
+````````
+
+`statsD  <https://github.com/etsy/statsd/>`_ 
+ A network daemon listens for statistics
 
 Events
 ------
