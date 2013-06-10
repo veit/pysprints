@@ -7,6 +7,16 @@ Auswertungen
           - Veit Schiele
 :Date: 2013-06-05
 
+Separater Client, der komplexere Auswertungen durchführen kann. Diese können
+auf Basis von `Riemann <http://riemann.io/>`_ ’s Index und/oder aus
+Langzeitdaten, die z.B. aus `logstash <http://logstash.net/>`_  kommen,
+erstellt werden. S.a. :doc:`archivierung`.
+
+Die Ergebnisse dieser Auswertungen können dann als Event wieder an Riemann
+übergeben werden, sodass diese im Dashboard angezeigt werden können. Damit
+kann das Riemann-Dashboard dann auch zum Monitoring von *business processes*
+verwendet werden.
+
 ``riemann-actual``
 ------------------
 
