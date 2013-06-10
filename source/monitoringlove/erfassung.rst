@@ -69,7 +69,7 @@ Installation
 Beispiel
 ::::::::
 
-Ein Beispielskript für scales kann z.B. folgendermaßen aussehen::
+Ein einfaches Beispielskript für ``scales`` kann z.B. folgendermaßen aussehen::
 
  from greplin import scales
 
@@ -97,7 +97,7 @@ Ein Beispielskript für scales kann z.B. folgendermaßen aussehen::
      STATS.success = random.randint(1,10)
      print STATS.success
 
-Das Skript kann anschließend folgendermaßen aufgerufen werden::
+Der Aufruf des Skripts erfolgt dann mit::
 
  $ ./bin/python scales.py
 
