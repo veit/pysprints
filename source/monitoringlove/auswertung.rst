@@ -1,6 +1,12 @@
 Auswertung
 ==========
 
+:Authors: - Christian Theune
+          - Jens Vagelpohl
+          - Michael Hierweck
+          - Veit Schiele
+:Date: 2013-06-05
+
 `riemann-actual <https://bitbucket.org/gocept/riemann-actual>`_
 ---------------------------------------------------------------
 
