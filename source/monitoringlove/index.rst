@@ -15,6 +15,6 @@ Inhalt:
    einleitung
    erfassung
    processing
-   auswertung
+   auswertungen
    graphing-und-dashboard
  
