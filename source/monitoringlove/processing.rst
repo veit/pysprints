@@ -1,6 +1,12 @@
 Processing
 ==========
 
+:Authors: - Christian Theune
+          - Jens Vagelpohl
+          - Michael Hierweck
+          - Veit Schiele
+:Date: 2013-06-05
+
 `Riemann <http://riemann.io/>`_ aggregiert Events von Servern und Anwendungen.
 
 Installation
