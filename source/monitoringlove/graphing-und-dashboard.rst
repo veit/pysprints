@@ -11,6 +11,8 @@ Graphing
 --------
 
 `Graphite <http://graphite.wikidot.com/>`_
+ Graphite lässt sich für Testzwecke am einfachsten installieren mit der
+ folgenden Vagrant VM: `graphite_up <https://github.com/suan/graphite_up>`_.
 
 Dashboard
 ---------
