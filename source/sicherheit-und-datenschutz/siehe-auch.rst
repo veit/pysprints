@@ -8,7 +8,7 @@ Siehe auch
           - Veit Schiele
 :Date: 2011-08-15
 
-- `BSI IT-Grundschutzkatalog <https://www.bsi.bund.de/DE/Themen/weitereThemen/ITGrundschutzKataloge/Inhalt/Massnahmenkataloge/massnahmenkataloge_node.html>`_
+- `BSI IT-Grundschutzkataloge <https://www.bsi.bund.de/DE/Themen/ITGrundschutz/ITGrundschutzKataloge/Inhalt/_content/kataloge.html>`_
 - `WebAppSec/Secure Coding Guidelines <https://wiki.mozilla.org/WebAppSec/Secure_Coding_Guidelines>`_ 
 - `WebLion: Secure Zope <https://weblion.psu.edu/trac/weblion/wiki/SecureZope>`_
 - `Stefe McMahon: Protecting Plone From The Big Bad Internet <http://www.slideshare.net/ErikRose/protecting-plone-from-the-big-bad-internet-presentation>`_
