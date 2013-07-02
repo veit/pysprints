@@ -11,8 +11,9 @@ Graphing
 --------
 
 `Graphite <http://graphite.wikidot.com/>`_
- Graphite lässt sich für Testzwecke am einfachsten installieren mit der
- folgenden Vagrant VM: `graphite_up <https://github.com/suan/graphite_up>`_.
+ Die Installation von Graphite mit seinen Abhängigkeiten ist etwas aufwändiger,
+ lässt sich jedoch einfach an folgendem Shell-Skript nachvollziehen:
+ `builddeb-graphite.sh <https://gist.github.com/hynek/4379393#file-builddeb-graphite-sh>`_.
 
 Dashboard
 ---------
