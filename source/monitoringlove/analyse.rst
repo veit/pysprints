@@ -1,5 +1,5 @@
-Auswertungen
-============
+Analyse
+=======
 
 :Authors: - Christian Theune
           - Jens Vagelpohl

@@ -27,7 +27,7 @@ Prototypen zu erstellen:
 
    erfassung
    verarbeitung
-   auswertungen
+   analyse
    graphing-und-dashboard
    archivierung
    siehe-auch
