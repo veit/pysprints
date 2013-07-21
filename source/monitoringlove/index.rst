@@ -28,6 +28,6 @@ Prototypen zu erstellen:
    erfassung
    verarbeitung
    analyse
-   graphing-und-dashboard
+   darstellung
    archivierung
    siehe-auch

@@ -1,5 +1,5 @@
-Graphing und Dashboard
-======================
+Darstellung
+===========
 
 :Authors: - Christian Theune
           - Jens Vagelpohl
