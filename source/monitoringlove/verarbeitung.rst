@@ -1,5 +1,5 @@
-Processing
-==========
+Verarbeitung
+============
 
 :Authors: - Christian Theune
           - Jens Vagelpohl

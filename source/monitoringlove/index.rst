@@ -26,7 +26,7 @@ Prototypen zu erstellen:
    :maxdepth: 1
 
    erfassung
-   processing
+   verarbeitung
    auswertungen
    graphing-und-dashboard
    archivierung
