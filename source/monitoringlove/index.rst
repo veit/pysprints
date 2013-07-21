@@ -5,7 +5,7 @@ MonitoringLove (05.06.–08.06.2013)
           - Jens Vagelpohl
           - Michael Hierweck
           - Veit Schiele
-:Date: 2013-06-05
+:Date: 2013-07-21
 
 Anlass des Sprints waren Probleme beim Monitoring mit `Nagios
 <http://www.nagios.org/>`_. Auch wenn das Wording der *Monitoring Sucks*- 
@@ -27,6 +27,7 @@ Prototypen zu erstellen:
 
    erfassung
    verarbeitung
+   persistenz
    analyse
    darstellung
    archivierung
