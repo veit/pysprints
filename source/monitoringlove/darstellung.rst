@@ -21,9 +21,9 @@ Graphite-web ist jedoch zunächst nicht wirklich gut vorbereitet auf verteiltes
 Monitoring:
 
 - das Carbon-Relay trifft die Annahme, dass alle Werte für ``DESTINATIONS`` mit
-  derselben IP auch dem selben Host zugehörend an.
+  derselben IP auch zu demselben Host gehören.
 - Umgekehrt nimmt Graphite-Web an, dass alle ``CLUSTER_SERVERS``, deren IP
-  *lokal* ist, auch tatsächlich eine lokale Instanz sei.
+  *lokal* ist, auch tatsächlich eine lokale Instanz seien.
 
 Sollen jedoch entfernete Hosts z.B. über SSL oder `Stunnel
 <http://en.wikipedia.org/wiki/Stunnel>`_ miteinander verbunden werden, sind die
