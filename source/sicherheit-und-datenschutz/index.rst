@@ -1,11 +1,11 @@
-Sicherheit und Datenschutz bei Zope-Anwendungen (15.–17. August 2011)
-=====================================================================
+Sicherheit und Datenschutz bei Web-Anwendungen (15.–17. August 2011)
+====================================================================
 
 :Authors: - Christian Theune
           - Hanno Schlichting
           - Jens Vagelpohl
           - Veit Schiele
-:Date: 2011-08-15
+:Date: 2011-09-01
 
 Inhalt:
 
