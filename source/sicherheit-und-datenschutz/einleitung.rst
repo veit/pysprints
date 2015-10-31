@@ -24,7 +24,7 @@ Ein wesentlicher Grundsatz des Gesetzes ist das sog. *Verbotsprinzip mit Erlaubn
 `§ 9`_ regelt die technischen und organisatorischen Maßnahmen, die getroffen werden müssen um personenbezogene Daten erheben, verarbeiten oder nutzen zu dürfen. In `Anlage zu § 9 Satz 1`_ werden dann die Maßnahmen beschrieben, die zum Schutz personenbezogener Daten geeignet sind:
 
 .. _`§ 9`: http://www.gesetze-im-internet.de/bdsg_1990/__9.html
-.. _`Anlage zu § 9 Satz 1`: http://www.gesetze-im-internet.de/bdsg_1990/anlage_79.html
+.. _`Anlage zu § 9 Satz 1`: http://www.gesetze-im-internet.de/bdsg_1990/anlage.html
 
 #. :doc:`zutrittskontrolle`
 #. :doc:`zugangskontrolle`
