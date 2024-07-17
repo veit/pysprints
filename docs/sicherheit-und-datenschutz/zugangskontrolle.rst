@@ -34,7 +34,7 @@ Dieses Netzwerk ist für allgemeine Anfagen gedacht. Die Firewall erlaubt den Zu
 
 Dabei sollten Zope-Server nicht in dieses Netzwerk gestellt werden sondern Web-Server wie nginx o.ä., die viel umfassendere Möglichkeiten der Zugangskontrolle gewährleisten, wie z.B. SSL-Termination (s.a. `SSL Server Test`_)
 
-  .. _`SSL Server Test`: https://www.ssllabs.com/ssldb/index.html
+  .. _`SSL Server Test`: https://www.ssllabs.com/ssltest/index.html
 
 Eine Beispielkonfiguration für SSL in der ``nginx.conf`` kann z.B. so aussehen::
 
