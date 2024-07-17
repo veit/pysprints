@@ -9,9 +9,9 @@ Eigenschaften eines offiziellen Mirrors
           - Veit Schiele
 :Date: 2011-04-06
 
-`PEP 381`_ beschreibt die Mirroring-Infrastruktur für den Python Package Index `PyPI`_.
+:pep:`381` beschreibt die Mirroring-Infrastruktur für den Python Package Index
+`PyPI`_.
 
-.. _`PEP 381`: http://www.python.org/dev/peps/pep-0381/
 .. _`PyPI`: http://pypi.python.org/
 
 Motivation
@@ -59,9 +59,11 @@ PyPI bietet Download-Statistiken in `/stats/`_ an. Diese Statistiken werden täg
 Authentizität der Mirrors
 -------------------------
 
-Bei einem verteilten System wollen PyPI-Clients überprüfen können, ob die gespiegelten Kopien der Pakete authentisch sind. Dabei beschreibt die `PEP 381`_-Spezifikation, wie die Authentizität des Mirrors überprüft werden kann. Hierzu wird im Master-Index ein DSA-Schlüssel unter der URL `/serverkey`_ bereitgestellt.
-
-.. _`/serverkey`: http://a.pypi.python.org/serverkey
+Bei einem verteilten System wollen PyPI-Clients überprüfen können, ob die
+gespiegelten Kopien der Pakete authentisch sind. Dabei beschreibt die
+:pep:`381`-Spezifikation, wie die Authentizität des Mirrors überprüft werden
+kann. Hierzu wird im Master-Index ein DSA-Schlüssel unter der URL ``/serverkey``
+bereitgestellt.
 
 Einmal im Jahr sollen die Schlüssel durch neue ersetzt werden. Die Mirrors müssten die neuen ``/serversig``-Seiten dann erneut abrufen. Aktuell unterstützt der pep381client noch nicht den automatischen Abruf neuer Schlüssel.
 
@@ -75,12 +77,12 @@ Seitenstruktur des Mirrors
 
 `packages`_
  Paketdistributionen, die im PyPI gehostet werden, sortiert nach Python-Versionen und Anfangsbuchstaben
-`serversig`_
+``serversig``
  Signaturen für die Simple Pages
 
-`last-modified`_
+``last-modified``
  Jeder öffentliche Mirror muss mit ``/last-modified`` eine URL mit einer Textdatei bereitstellen, die das Datum der letzten Aktualisierung in GMT-Zeit im Format `ISO 8601`_ enthält.
-`local-stats`_
+``local-stats``
  Jeder Mirror soll die Anzahl der Downloads ausgeben. Diese Angabe wird von PyPI verwendet um die Gesamtzahl aller Downloads anzuzeigen.
 
  Diese Statistik wird als CSV-Datei mit einer Kopfzeile bereitgestellt. Im Einzelnen werden folgende Felder verwendet:
@@ -108,9 +110,6 @@ Seitenstruktur des Mirrors
  Diese Dateien werden in einem Ordner ``/local-stats/days/`` bereitgestellt.
 
 
-.. _`simple`: http://e.pypi.python.org/simple/
-.. _`packages`: http://e.pypi.python.org/packages/
-.. _`serversig`: http://e.pypi.python.org/serversig/
-.. _`last-modified`: http://e.pypi.python.org/last-modified
-.. _`ISO 8601`: http://de.wikipedia.org/wiki/ISO_8601
-.. _`local-stats`: http://e.pypi.python.org/local-stats/
+.. _`simple`: https://pypi.org/simple/
+.. _`packages`: https://pypi.python.org/packages//
+.. _`ISO 8601`: https://de.wikipedia.org/wiki/ISO_8601

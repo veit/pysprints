@@ -64,4 +64,4 @@ Damit überlappt der Umfang von CLDR zum Teil mit den POSIX-Locales (ISO 15897).
    des POSIX-Formats ausgeliefert. Für die Generierung der POSIX-Locale werden
    jedoch weiterhin Werkzeuge vom CLDR-Konsortium bereitgestellt um POSIX-
    konforme Locales generieren zu können. Weitere Informationen hierzu erhalten
-   Sie in `POSIX Data <http://cldr.unicode.org/index/downloads#POSIX_Data>`_.
+   Sie in `POSIX Data <https://cldr.unicode.org/index/downloads#POSIX_Data>`_.

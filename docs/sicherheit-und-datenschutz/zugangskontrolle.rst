@@ -34,7 +34,7 @@ Dieses Netzwerk ist für allgemeine Anfagen gedacht. Die Firewall erlaubt den Zu
 
 Dabei sollten Zope-Server nicht in dieses Netzwerk gestellt werden sondern Web-Server wie nginx o.ä., die viel umfassendere Möglichkeiten der Zugangskontrolle gewährleisten, wie z.B. SSL-Termination (s.a. `SSL Server Test`_)
 
-  .. _`SSL Server Test`: https://www.ssllabs.com/ssldb/index.html
+  .. _`SSL Server Test`: https://www.ssllabs.com/ssltest/index.html
 
 Eine Beispielkonfiguration für SSL in der ``nginx.conf`` kann z.B. so aussehen::
 
@@ -68,7 +68,10 @@ Caching
 Load-Balancing
 ``````````````
 
-`HAProxy`_ bietet sich wegen seiner einfachen Konfigurationsmöglichkeiten als Load-Balancer an. So erlaubt er z.B. einfaches `Throttling`_ und `Sandboxing`_. Eine Beispielkonfiguration kann folgendermaßen aussehen::
+`HAProxy`_ bietet sich wegen seiner einfachen Konfigurationsmöglichkeiten als
+Load-Balancer an. So erlaubt er .abbr:`z.B. (zum Beispiel)` einfaches
+`Throttling`_ und `Sandboxing`_. Eine Beispielkonfiguration kann folgendermaßen
+aussehen::
 
  frontend http
      bind 127.0.0.1:8002
@@ -143,9 +146,9 @@ Load-Balancing
      server web11    web18.example.net:8080 weight 1 check inter 15s rise 2 fall 1 maxconn 1
      server web12    web19.example.net:8080 weight 1 check inter 15s rise 2 fall 1 maxconn 1
 
-.. _`HAProxy`: http://haproxy.1wt.eu/
-.. _`Throttling`: http://de.wikipedia.org/wiki/Throttling
-.. _`Sandboxing`: http://en.wikipedia.org/wiki/Sandbox_(computer_security)
+.. _`HAProxy`: http://www.haproxy.org
+.. _`Throttling`: https://de.wikipedia.org/wiki/Throttling
+.. _`Sandboxing`: https://en.wikipedia.org/wiki/Sandbox_(computer_security)
 
 Zope
 ````

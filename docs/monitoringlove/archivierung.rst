@@ -13,5 +13,5 @@ Archivierung
 ablösen.
 
 Alternativ könnte `OpenTSDB <http://opentsdb.net/>`_, eine verteilte,
-skalierbare Time Series Database (TSDB) auf Basis von
-`HBase <http://hbase.org/>`_ zum Einsatz kommen.
+skalierbare Time Series Database (TSDB) auf Basis von `HBase
+<https://hbase.apache.org>`_ zum Einsatz kommen.

@@ -8,7 +8,8 @@ Beispiel
           - Veit Schiele
 :Date: 2012-05-23
 
-Siehe auch `Service Deployment Cheicklist <http://gocept.net/doc/reference/processes/service-deployment-checklist.html>`_
+Siehe auch `Service Deployment Cheicklist
+<https://web.archive.org/web/20121130030031/http://gocept.net/doc/reference/processes/service-deployment-checklist.html>`_
 
 Komponenten
 -----------
@@ -46,8 +47,8 @@ Empfohlener Zuschnitt
 
 Voraussetzung von batou ist ein Mercurial-Projekt
 
-`z3c.pypimirror <http://pypi.python.org/pypi/>`_ um zu gewährleisten,
-dass exteren Abhängigkeiten auch später noch verfügbar sind.
+`z3c.pypimirror <https://pypi.org/project/z3c.pypimirror/>`_ um zu
+gewährleisten, dass exteren Abhängigkeiten auch später noch verfügbar sind.
 
 Das ``manage.py``-Skript von Django nutzt jedoch immer ``/usr/bin/env python``. Wir benötigen jedoch unabhängige Angaben zur Umgebung. Daher erstellen wir eine Datei ``setings_general.py``.
 

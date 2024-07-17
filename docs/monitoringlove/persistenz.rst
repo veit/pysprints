@@ -9,13 +9,14 @@ Persistenz
 :Date: 2013-07-21
 
 Einen guten Überblick über die verschiedenen Möglichkeiten beim Clustering gibt
-der Artikel `Clustering Graphite <http://bitprophet.org/blog/2013/03/07/graphite/>`_.
+der Artikel `Clustering Graphite
+<https://bitprophet.org/blog/2013/03/07/graphite/>`_.
 
 - Die Riemann-Instanzen leiten die Events an ihren lokalen `carbon-relay
-  <http://graphite.readthedocs.org/en/1.0/carbon-daemons.html#carbon-relay-py>`_
+  <https://graphite.readthedocs.io/en/stable/carbon-daemons.html#carbon-relay-py>`_
   weiter.
 - Die carbon-relays nutzen den ``consistent hashing``-Modus über mehrere
-  `carbon-cache <http://graphite.readthedocs.org/en/1.0/carbon-daemons.html#carbon-cache-py>`_
+  `carbon-cache <https://graphite.readthedocs.org/en/stable/carbon-daemons.html#carbon-cache-py>`_
   -Backends hinweg.
 - Wird für den oder die carbon-relays ``REPLICATION_FACTOR = 2`` gewählt, so
   gewährleistet diese Redundanz, dass keine Daten fehlen, auch wenn eine
