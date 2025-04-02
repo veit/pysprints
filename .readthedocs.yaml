@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2022 Veit Schiele
+#
+# SPDX-License-Identifier: BSD-3-Clause
+
 # .readthedocs.yaml
 # Read the Docs configuration file
 # See https://docs.readthedocs.io/en/stable/config-file/v2.html for details
@@ -8,11 +12,11 @@ version: 2
 # Set the version of Python and other tools you might need
 build:
   os: ubuntu-22.04
-  tools:
-    python: "3.12"
   apt_packages:
     # graphviz is required for sphinx.ext.graphviz
     - graphviz
+  tools:
+    python: "3.12"
 
 # Build documentation in the docs/ directory with Sphinx
 sphinx:
@@ -26,4 +30,7 @@ formats:
 # Optionally declare the Python requirements required to build your docs
 python:
   install:
-  - requirements: docs/requirements.txt
+    - method: pip
+      path: .
+      extra_requirements:
+        - docs
